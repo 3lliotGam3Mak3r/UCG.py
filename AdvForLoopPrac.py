@@ -35,11 +35,14 @@ numbers = [12, 5, 8, 19, 44, 2, 7, 18, 33, 50]
 # "Even: X"
 # "Odd: Y"
 # Write your code below:
+Even = 0
+Odd = 0
 for number in numbers:
     if number % 2 == 0:
-        print(f"Even: {number}")
+        Even += 1
     else:
-        print(f"Odd: {number}")
+        Odd += 1
+print(f"Even:{Even}\nOdd:{Odd}")
 
 print("\n")
 
@@ -55,7 +58,5 @@ print("\n")
 
 for i in range(1,11):
     for a in range(1,11):
-        print(i*a, end="")
+        print(i*a, end=" ")
     print()
-        
-

@@ -14,7 +14,7 @@ print("     *")
 #prints a cat!
 print(" ^ ^ \n(o.o)\n >^<")
 
-#prints a dog!
+#prints a dog!!!
 print("    / \__ ")
 print("   (    @\___")
 print("   /         0")

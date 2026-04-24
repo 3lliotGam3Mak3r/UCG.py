@@ -189,5 +189,5 @@ while X == 0:
         print("\nSee ya later Gamer!\n")
         break
     else:
-        print("\n\nSorry, That choice was INVALID!\n\n\n")
+        print("\n\nSorry, That choice was INVALID!!\n\n\n")
         x = 0
